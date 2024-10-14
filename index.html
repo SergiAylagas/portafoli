@@ -1,33 +1,61 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="ca">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Pàgina Responsive</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <header>
+    <button onclick="location.href='#sobre-mi'">Sobre mi</button>
+    <button onclick="location.href='#projectes'">Projectes</button>
+    <button onclick="location.href='#contacte'">Contacte</button>
+  </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
-
+  <main>
+    <section id="sobre-mi">
+      <div class="text-container">
+        <h2>Sobre mi</h2>
+        <p>Hem dic Sergi, tinc 19 anys i estudio DAW (Desenvolupament d'Aplicacions Web). M'apassiona la programació i el disseny, i m'encanta crear projectes que millorin l'experiència d'usuari.</p>
+        <p>Tinc coneixements en HTML, CSS i JavaScript, i sempre estic aprenent noves tecnologies i tendències en el món del desenvolupament web. M'agrada treballar en equip i compartir idees amb altres professionals del sector.</p>
+        <p>A més, sóc un gran aficionat a la fotografia i a la música, i sempre busco la manera de combinar les meves passions amb el meu treball. Estic emocionat per seguir creixent com a desenvolupador i afrontar nous reptes.</p>
+      </div>
+      <div class="image-container">
+        <img src="img/img3.jpg" alt="Imatge sobre mi">
+      </div>
+    </section>
+      
+    <section id="projectes-titol">
+      <h2>Projectes</h2>
+    </section>
+      
+    <section id="projectes-imatges">
+      <div class="project-images">
+        <div class="project-container">
+          <img src="img/img1.jpg" alt="Imatge projecte 1">
+          <p><strong>Projecte Java:</strong> Aquest projecte és una aplicació de gestió d'inventari desenvolupada en Java. Permet als usuaris afegir, eliminar i modificar articles, així com visualitzar el llistat complet d'inventari. Utilitza una interfície gràfica amb JavaFX per a una experiència d'usuari intuïtiva. He implementat funcionalitats com la cerca d'articles i l'exportació de dades a fitxers CSV. Aquest projecte m'ha ajudat a millorar les meves habilitats en programació orientada a objectes i en la creació d'interfícies d'usuari atractives.</p>
+        </div>
+        <div class="project-container">
+          <img src="img/img2.jpg" alt="Imatge projecte 2">
+          <p><strong>Projecte HTML:</strong> Aquest projecte és una pàgina web personal creada amb HTML i CSS. La web inclou seccions com "Sobre mi", "Projectes" i "Contacte", i està dissenyada per ser responsive, adaptant-se a diferents mides d'equip. He utilitzat elements multimèdia com imatges i vídeos per fer-la més interactiva. També he aplicat bones pràctiques d'accessibilitat i SEO per garantir que la pàgina sigui fàcil d'utilitzar i visible en cercadors. Aquesta experiència m'ha permès aprofundir en la creació de dissenys atractius i funcionals.</p>
+        </div>
+      </div>
+    </section>
+      
+    <section id="contacte">
+      <h2>Contacte</h2>
+      <div class="contact-content">
+        <p>Pots connectar amb mi a través del correu electrònic: <span class="correu">sergi.aylagas@cirvianum.cat</span></p>
+      </div>
+    </section>
+  </main>
+      
+  <footer>
+    <p>&copy; 2024 Pàgina Responsive</p>
+  </footer>
 </body>
 
 </html>
